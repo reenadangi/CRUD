@@ -1,0 +1,5 @@
+package com.reena.projects.repositories;
+
+public interface ProjectRepository {
+
+}

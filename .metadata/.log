@@ -1,0 +1,878 @@
+!SESSION 2022-01-14 09:08:20.220 -----------------------------------------------
+eclipse.buildId=4.11.0.202106180608
+java.version=16.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.ui 2 0 2022-01-14 09:10:03.893
+!MESSAGE Warnings while parsing the images from the 'org.eclipse.ui.commandImages' extension point.
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-01-14 09:10:03.893
+!MESSAGE Cannot bind to an undefined command: plug-in='com.genuitec.eclipse.theming.ui', id='com.genuitec.myeclipse.help.darktheme.commandid'
+
+!ENTRY com.genuitec.eclipse.theming.ui 1 0 2022-01-14 09:10:04.377
+!MESSAGE A DevStyle Theme is being activated on this workspace; preparing colors and configuration
+
+!ENTRY com.genuitec.eclipse.theming.ui 1 0 2022-01-14 09:10:04.398
+!MESSAGE DevStyle has archived current color configurations to alternate preferences - will be restored when switching out of the DevStyle Theme
+
+!ENTRY org.eclipse.jface 2 0 2022-01-14 09:10:05.119
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-01-14 09:10:05.119
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2efda33d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@71dbfe64,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-01-14 09:10:05.119
+!MESSAGE A conflict occurred for ALT+SHIFT+X R:
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.run,Run on Server,
+		Run the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2139aa1f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.eclipse.rap.tools.launch.RAPLaunchShortcut.run,Run RAP Application,
+		Run RAP Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@142dbf1a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-01-14 09:10:05.119
+!MESSAGE A conflict occurred for ALT+SHIFT+D R:
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.debug,Debug on Server,
+		Debug the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@578a12e9,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.eclipse.rap.tools.launch.RAPLaunchShortcut.debug,Debug RAP Application,
+		Debug RAP Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@798ceea2,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-01-14 09:10:09.403
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\reena'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.php.debug.core 4 4 2022-01-14 09:10:09.893
+!MESSAGE The debug port 9000 is in use. Please select a different port for the debugger.
+
+!ENTRY org.eclipse.php.debug.core 4 4 2022-01-14 09:10:09.893
+!MESSAGE Could not open a broadcast port on: 20080 (port might be in use). Please select a different port number
+
+!ENTRY org.eclipse.php.debug.core 4 4 2022-01-14 09:10:09.898
+!MESSAGE The debug port 10137 is in use. Please select a different port for the debugger.
+
+!ENTRY org.eclipse.ui.navigator 2 0 2022-01-14 09:10:11.501
+!MESSAGE Can't find Navigator Content Descriptor with id: org.eclipse.jst.servlet.ui.EnhancedJavaRendering
+
+!ENTRY org.eclipse.ui.navigator 2 0 2022-01-14 09:10:11.501
+!MESSAGE Can't find Navigator Content Descriptor with id: org.eclipse.jst.servlet.ui.EnhancedJavaRendering
+
+!ENTRY Activator 1 0 2022-01-14 09:20:25.004
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY Activator 1 0 2022-01-14 09:20:26.971
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY Activator 1 0 2022-01-14 09:20:27.171
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY Activator 1 0 2022-01-14 09:20:28.137
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY org.eclipse.jface 2 0 2022-01-14 09:21:08.829
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-01-14 09:21:08.829
+!MESSAGE A conflict occurred for CTRL+D:
+Binding(CTRL+D,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.delete.line,Delete Line,
+		Delete a line of text,
+		Category(org.eclipse.ui.category.textEditor,Text Editing,Text Editing Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6cef0bda,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+D,
+	ParameterizedCommand(Command(io.emmet.eclipse.commands.match_pair_outward,Match Pair Outward,
+		,
+		Category(io.emmet.eclipse.commands.category,Emmet,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@788c607c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY Activator 1 0 2022-01-14 09:21:23.657
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY Activator 1 0 2022-01-14 09:21:25.213
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY Activator 1 0 2022-01-14 09:21:25.944
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY Activator 1 0 2022-01-14 09:21:26.681
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-14 09:22:08.877
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-14 09:22:08.880
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@34725cb1[org.springframework.tooling.boot.ls:1.26.0.202106150606(id=559)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-14 09:22:08.886
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-14 09:22:08.908
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.eclipse.jface 2 0 2022-01-14 09:22:09.249
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-01-14 09:22:09.249
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.togglelinecommentcommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@cb952f4,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@31693ea2,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-01-14 09:22:09.249
+!MESSAGE A conflict occurred for CTRL+SHIFT+/:
+Binding(CTRL+SHIFT+/,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.addblockcommentcommand,Add Block Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6fd44395,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+/,
+	ParameterizedCommand(Command(io.emmet.eclipse.commands.toggle_comment,Toggle Comment,
+		,
+		Category(io.emmet.eclipse.commands.category,Emmet,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@245ffa21,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-14 09:22:10.818
+!MESSAGE Boot LS startup time from start to initialized: 1922ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-14 09:22:10.905
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.vWHNQGIsisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-14 09:22:10.907
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-14 09:22:10.909
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-14 09:22:10.910
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-14 09:22:10.910
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-14 09:22:10.910
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.vWHNQGIs => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-14 09:22:10.917
+!MESSAGE classpath=98 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-14 09:22:10.920
+!MESSAGE buffering callback sts4.classpath.vWHNQGIs projects false 98
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-14 09:22:10.921
+!MESSAGE executing callback sts4.classpath.vWHNQGIs 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-14 09:22:11.364
+!MESSAGE executing callback sts4.classpath.vWHNQGIs SUCCESS [done]
+
+!ENTRY Activator 1 0 2022-01-14 09:23:08.651
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY Activator 1 0 2022-01-14 09:23:09.004
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY org.eclipse.ui 2 2 2022-01-14 09:24:04.760
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY Activator 1 0 2022-01-14 09:24:09.779
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY Activator 1 0 2022-01-14 09:24:25.416
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY Activator 1 0 2022-01-14 09:25:08.281
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY Activator 1 0 2022-01-14 09:25:08.417
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY Activator 1 0 2022-01-14 09:25:35.012
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY Activator 1 0 2022-01-14 09:25:35.268
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY Activator 1 0 2022-01-14 09:25:46.879
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY Activator 1 0 2022-01-14 09:25:47.066
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY Activator 1 0 2022-01-14 09:26:00.371
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY Activator 1 0 2022-01-14 09:26:00.505
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY Activator 1 0 2022-01-14 09:26:36.282
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY Activator 1 0 2022-01-14 09:26:36.840
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY Activator 1 0 2022-01-14 09:26:47.453
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY Activator 1 0 2022-01-14 09:26:48.096
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY org.eclipse.lsp4e 2 0 2022-01-14 09:27:09.148
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2092)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY Activator 1 0 2022-01-14 09:27:12.567
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY Activator 1 0 2022-01-14 09:27:13.147
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY org.eclipse.lsp4e 2 0 2022-01-14 09:32:12.506
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2092)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY Activator 1 0 2022-01-14 09:38:36.421
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY Activator 1 0 2022-01-14 09:38:36.992
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-14 09:39:53.068
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.vWHNQGIs
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-14 09:39:53.070
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.vWHNQGIs
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-14 09:39:53.071
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-14 09:39:53.071
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.vWHNQGIs => OK
+
+!ENTRY Activator 1 0 2022-01-14 09:40:59.072
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-14 09:40:59.405
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-14 09:40:59.406
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@34725cb1[org.springframework.tooling.boot.ls:1.26.0.202106150606(id=559)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-14 09:40:59.407
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY Activator 1 0 2022-01-14 09:40:59.661
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-14 09:41:02.574
+!MESSAGE Boot LS startup time from start to initialized: 3167ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-14 09:41:02.694
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.plIRIuSWisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-14 09:41:02.695
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-14 09:41:02.695
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-14 09:41:02.696
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-14 09:41:02.696
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-14 09:41:02.696
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.plIRIuSW => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-14 09:41:02.705
+!MESSAGE classpath=98 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-14 09:41:02.715
+!MESSAGE buffering callback sts4.classpath.plIRIuSW projects false 98
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-14 09:41:02.716
+!MESSAGE executing callback sts4.classpath.plIRIuSW 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-14 09:41:03.135
+!MESSAGE executing callback sts4.classpath.plIRIuSW SUCCESS [done]
+
+!ENTRY Activator 1 0 2022-01-14 09:41:10.590
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY Activator 1 0 2022-01-14 09:41:11.195
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY Activator 1 0 2022-01-14 09:41:25.215
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY Activator 1 0 2022-01-14 09:41:25.831
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY Activator 1 0 2022-01-14 09:42:41.383
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY Activator 1 0 2022-01-14 09:42:41.983
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY Activator 1 0 2022-01-14 09:43:25.417
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY Activator 1 0 2022-01-14 09:43:25.989
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY Activator 1 0 2022-01-14 09:44:14.587
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY Activator 1 0 2022-01-14 09:44:15.159
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-14 09:44:22.176
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.plIRIuSW
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-14 09:44:22.176
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.plIRIuSW
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-14 09:44:22.176
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-14 09:44:22.177
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.plIRIuSW => OK
+
+!ENTRY Activator 1 0 2022-01-14 09:44:35.151
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-14 09:44:35.402
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-14 09:44:35.403
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@34725cb1[org.springframework.tooling.boot.ls:1.26.0.202106150606(id=559)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-14 09:44:35.403
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY Activator 1 0 2022-01-14 09:44:35.709
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-14 09:44:38.603
+!MESSAGE Boot LS startup time from start to initialized: 3199ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-14 09:44:38.761
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.HoRxzttPisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-14 09:44:38.762
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-14 09:44:38.762
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-14 09:44:38.763
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-14 09:44:38.764
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-14 09:44:38.764
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.HoRxzttP => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-14 09:44:38.771
+!MESSAGE classpath=98 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-14 09:44:38.777
+!MESSAGE buffering callback sts4.classpath.HoRxzttP projects false 98
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-14 09:44:38.778
+!MESSAGE executing callback sts4.classpath.HoRxzttP 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-14 09:44:39.343
+!MESSAGE executing callback sts4.classpath.HoRxzttP SUCCESS [done]
+
+!ENTRY Activator 1 0 2022-01-14 09:44:46.105
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY Activator 1 0 2022-01-14 09:44:46.653
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY Activator 1 0 2022-01-14 09:54:16.477
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY Activator 1 0 2022-01-14 09:54:17.034
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY Activator 1 0 2022-01-14 09:55:10.667
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY Activator 1 0 2022-01-14 09:55:11.286
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-14 09:55:15.805
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.HoRxzttP
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-14 09:55:15.806
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.HoRxzttP
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-14 09:55:15.806
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-14 09:55:15.807
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.HoRxzttP => OK
+
+!ENTRY Activator 1 0 2022-01-14 09:56:21.093
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-14 09:56:21.344
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-14 09:56:21.345
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@34725cb1[org.springframework.tooling.boot.ls:1.26.0.202106150606(id=559)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-14 09:56:21.345
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY Activator 1 0 2022-01-14 09:56:21.695
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-14 09:56:23.306
+!MESSAGE Boot LS startup time from start to initialized: 1960ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-14 09:56:23.384
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.qIPBeGVIisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-14 09:56:23.384
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-14 09:56:23.385
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-14 09:56:23.385
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-14 09:56:23.385
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-14 09:56:23.385
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.qIPBeGVI => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-14 09:56:23.390
+!MESSAGE classpath=98 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-14 09:56:23.392
+!MESSAGE buffering callback sts4.classpath.qIPBeGVI projects false 98
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-14 09:56:23.393
+!MESSAGE executing callback sts4.classpath.qIPBeGVI 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-14 09:56:23.726
+!MESSAGE executing callback sts4.classpath.qIPBeGVI SUCCESS [done]
+
+!ENTRY Activator 1 0 2022-01-14 09:56:33.575
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY Activator 1 0 2022-01-14 09:56:34.125
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY Activator 1 0 2022-01-14 09:57:32.995
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY Activator 1 0 2022-01-14 09:57:33.598
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY Activator 1 0 2022-01-14 09:57:48.101
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY Activator 1 0 2022-01-14 09:57:48.663
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY Activator 1 0 2022-01-14 10:00:08.029
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY Activator 1 0 2022-01-14 10:00:08.569
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY Activator 1 0 2022-01-14 10:00:45.831
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY Activator 1 0 2022-01-14 10:00:46.390
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY Activator 1 0 2022-01-14 10:01:10.102
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY Activator 1 0 2022-01-14 10:01:10.658
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY Activator 1 0 2022-01-14 10:02:24.950
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY Activator 1 0 2022-01-14 10:02:25.562
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY Activator 1 0 2022-01-14 10:03:12.669
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY Activator 1 0 2022-01-14 10:03:20.781
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY Activator 1 0 2022-01-14 10:04:03.882
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY Activator 1 0 2022-01-14 10:04:04.441
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY org.eclipse.lsp4e 2 0 2022-01-14 10:07:26.158
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2092)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY Activator 1 0 2022-01-14 10:09:14.147
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY Activator 1 0 2022-01-14 10:09:14.696
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY Activator 1 0 2022-01-14 10:11:50.793
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY Activator 1 0 2022-01-14 10:11:50.857
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY Activator 1 0 2022-01-14 10:16:47.690
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY Activator 1 0 2022-01-14 10:17:10.044
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY Activator 1 0 2022-01-14 10:22:48.961
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY Activator 1 0 2022-01-14 10:23:00.353
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY Activator 1 0 2022-01-14 10:23:12.878
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY Activator 1 0 2022-01-14 10:24:02.546
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY Activator 1 0 2022-01-14 10:24:02.644
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY org.eclipse.wst.xml.core 4 4 2022-01-14 10:27:11.659
+!MESSAGE IStructuredDocumentRegion management failed.
+!STACK 0
+org.eclipse.wst.xml.core.internal.document.StructuredDocumentRegionManagementException: IStructuredDocumentRegion management failed.
+	at org.eclipse.wst.xml.core.internal.document.XMLModelParser.removeStructuredDocumentRegion(XMLModelParser.java:2267)
+	at org.eclipse.wst.xml.core.internal.document.XMLModelParser.changeStructuredDocumentRegion(XMLModelParser.java:548)
+	at org.eclipse.wst.xml.core.internal.document.XMLModelParser.changeTagName(XMLModelParser.java:580)
+	at org.eclipse.wst.xml.core.internal.document.XMLModelParser.changeRegion(XMLModelParser.java:349)
+	at org.eclipse.wst.xml.core.internal.document.DOMModelImpl.regionChanged(DOMModelImpl.java:801)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument._fireEvent(BasicStructuredDocument.java:544)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.fireStructuredDocumentEvent(BasicStructuredDocument.java:1182)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.internalReplaceText(BasicStructuredDocument.java:1966)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.replaceText(BasicStructuredDocument.java:2425)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.replaceText(BasicStructuredDocument.java:2410)
+	at org.eclipse.wst.sse.core.internal.text.JobSafeStructuredDocument.access$2(JobSafeStructuredDocument.java:1)
+	at org.eclipse.wst.sse.core.internal.text.JobSafeStructuredDocument$3.run(JobSafeStructuredDocument.java:143)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.wst.sse.ui.EditorExecutionContext.execute(EditorExecutionContext.java:150)
+	at org.eclipse.wst.sse.core.internal.text.JobSafeStructuredDocument.replaceText(JobSafeStructuredDocument.java:146)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.replace(BasicStructuredDocument.java:2370)
+	at org.eclipse.wst.sse.core.internal.text.JobSafeStructuredDocument.access$0(JobSafeStructuredDocument.java:1)
+	at org.eclipse.wst.sse.core.internal.text.JobSafeStructuredDocument$1.run(JobSafeStructuredDocument.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.wst.sse.ui.EditorExecutionContext.execute(EditorExecutionContext.java:150)
+	at org.eclipse.wst.sse.core.internal.text.JobSafeStructuredDocument.replace(JobSafeStructuredDocument.java:108)
+	at org.eclipse.jface.text.projection.ProjectionTextStore.replace(ProjectionTextStore.java:106)
+	at org.eclipse.jface.text.AbstractDocument.replace(AbstractDocument.java:1093)
+	at org.eclipse.jface.text.AbstractDocument.replace(AbstractDocument.java:1118)
+	at org.eclipse.jface.text.projection.ProjectionDocument.replace(ProjectionDocument.java:627)
+	at org.eclipse.jface.text.DefaultDocumentAdapter.replaceTextRange(DefaultDocumentAdapter.java:223)
+	at org.eclipse.swt.custom.StyledText.modifyContent(StyledText.java:7434)
+	at org.eclipse.swt.custom.StyledText.sendKeyEvent(StyledText.java:8308)
+	at org.eclipse.swt.custom.StyledText.doContent(StyledText.java:2512)
+	at org.eclipse.swt.custom.StyledText.handleKey(StyledText.java:6075)
+	at org.eclipse.swt.custom.StyledText.handleKeyDown(StyledText.java:6106)
+	at org.eclipse.swt.custom.StyledText.lambda$1(StyledText.java:5795)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4209)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1043)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1067)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1052)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1094)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1519)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:4882)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Canvas.java:345)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4760)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4930)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3624)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
+
+!ENTRY Activator 1 0 2022-01-14 10:29:04.135
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY Activator 1 0 2022-01-14 10:30:01.124
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY Activator 1 0 2022-01-14 10:31:24.713
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY Activator 1 0 2022-01-14 10:31:32.144
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY Activator 1 0 2022-01-14 10:31:41.585
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY Activator 1 0 2022-01-14 10:32:15.370
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY Activator 1 0 2022-01-14 10:34:08.928
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY Activator 1 0 2022-01-14 10:35:40.650
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY Activator 1 0 2022-01-14 10:35:41.231
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY Activator 1 0 2022-01-14 10:37:55.923
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY Activator 1 0 2022-01-14 10:37:56.538
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY Activator 1 0 2022-01-14 10:37:59.998
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY Activator 1 0 2022-01-14 10:38:00.560
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY Activator 1 0 2022-01-14 10:38:59.955
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY Activator 1 0 2022-01-14 10:39:00.004
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY Activator 1 0 2022-01-14 10:43:37.134
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY org.eclipse.lsp4e 2 0 2022-01-14 10:45:03.433
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2092)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY Activator 1 0 2022-01-14 10:46:11.951
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY Activator 1 0 2022-01-14 10:46:12.554
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY Activator 1 0 2022-01-14 10:48:13.716
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY Activator 1 0 2022-01-14 10:48:14.307
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY Activator 1 0 2022-01-14 10:49:21.798
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY Activator 1 0 2022-01-14 10:50:58.330
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY Activator 1 0 2022-01-14 10:50:58.929
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY Activator 1 0 2022-01-14 10:53:06.042
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY Activator 1 0 2022-01-14 10:53:06.638
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY Activator 1 0 2022-01-14 10:58:13.759
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY Activator 1 0 2022-01-14 11:01:40.310
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY Activator 1 0 2022-01-14 11:01:40.897
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY Activator 1 0 2022-01-14 11:06:07.329
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY Activator 1 0 2022-01-14 11:06:07.938
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY Activator 1 0 2022-01-14 11:06:45.730
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY Activator 1 0 2022-01-14 11:06:45.778
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY Activator 1 0 2022-01-14 11:09:13.401
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY Activator 1 0 2022-01-14 11:11:54.499
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY Activator 1 0 2022-01-14 11:11:55.049
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY Activator 1 0 2022-01-14 11:13:45.852
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY Activator 1 0 2022-01-14 11:14:03.047
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY Activator 1 0 2022-01-14 11:14:52.748
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY Activator 1 0 2022-01-14 11:15:19.954
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY Activator 1 0 2022-01-14 11:17:14.137
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY Activator 1 0 2022-01-14 11:17:14.691
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY Activator 1 0 2022-01-14 11:17:16.817
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY Activator 1 0 2022-01-14 11:17:31.171
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY Activator 1 0 2022-01-14 11:17:31.242
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY Activator 1 0 2022-01-14 11:19:24.971
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY Activator 1 0 2022-01-14 11:19:25.985
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY Activator 1 0 2022-01-14 11:20:29.019
+!MESSAGE Has main method computation for project 'projects'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-14 13:06:16.354
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.qIPBeGVI
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-14 13:06:16.358
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.qIPBeGVI
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-14 13:06:16.358
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-14 13:06:16.359
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.qIPBeGVI => OK

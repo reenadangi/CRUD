@@ -1,0 +1,25 @@
+package com.reena.projects.controllers;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+
+import com.reena.projects.repositories.StudentRepository;
+import com.reena.projects.services.ProjectService;
+import com.reena.projects.services.StudentService;
+
+@Controller
+public class HomeController {
+	
+	@Autowired 
+	private StudentService sService;
+	@Autowired
+	private ProjectService pService;
+	
+	
+	
+	
+	
+	
+	
+
+}
